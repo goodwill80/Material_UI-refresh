@@ -56,6 +56,7 @@ function TableMui() {
                 key={i}
                 sx={{
                   '&:last-child td, &:last-child th': { border: 0 },
+                  //   '& td': { border: 1 },
                 }}
               >
                 <TableCell>{row.id}</TableCell>
